@@ -26,7 +26,6 @@ body {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle.collapsed {
-	/*color:#129936;*/
 	background-color: transparent;
 }
 .navbar-fb {
@@ -42,6 +41,14 @@ body {
 	border: 1px solid transparent;
 	border-radius: 4px;
 	font-size:22px;
+}
+.navbar-default .navbar-fb:hover,
+.navbar-default .navbar-fb:focus {
+	border:1px solid transparent;
+	border-color:#20201e;
+}
+.button:focus {
+	outline:none;
 }
 #navbar-collapse {
 	margin-top:4px;
