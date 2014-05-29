@@ -478,3 +478,323 @@ text-green strong{
         text-align: justify;
     }
 }
+
+/*** About us ***/
+.about {
+  width: 100%;
+}
+
+/*** About us lg ***/
+@media (min-width: 1200px) {
+  .about1 {
+    background: url('../img/about-globe.png');
+    background-repeat: no-repeat;
+    background-position-x: 15%;
+    background-position-y: 42%;
+    background-size: 596px;
+    height: 596px;
+    padding-left: 50%;
+    padding-top: 105px;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: left;
+  }
+  .about-head {
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 36px;
+    color: #ffffff;
+  }
+  .text-green {
+    font-size: 19px;
+    color: #129936;
+  }
+  .about-company-name {
+    font-size: 32px;
+    font-weight: medium;
+    color: #1cad43;
+  }
+  .about2 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .about3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 207px;
+    font-size: 16px;
+    color: #bababa;
+    line-height: 32px;
+    min-height: 202px;
+  }
+  .about3-row1 {
+    background: url('../img/about-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 152px;
+  }
+  .about3-row2 {
+    background: url('../img/about-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 152px;
+  }
+  .about3-row3 {
+    background: url('../img/about-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 152px;
+  }
+  .about4 {
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 46px;
+    border-top : 1px;
+    border-top-style: solid;
+    border-top-color: #383838;
+  }
+  .about4-cell {
+    width: 480px;
+  }
+}
+
+/*** About us md ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about1 {
+    background: url('../img/about-globe.png');
+    background-repeat: no-repeat;
+    background-position-x: 15%;
+    background-position-y: 50%;
+    background-size: 596px;
+    height: 596px;
+    padding-left: 50%;
+    padding-top: 150px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .about-head {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: #ffffff;
+  }
+  .text-green {
+    font-size: 16px;
+    color: #129936;
+  }
+  .about-company-name {
+    font-size: 26px;
+    font-weight: medium;
+    color: #1cad43;
+  }
+  .about2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .about3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 148px;
+    font-size: 16px;
+    color: #bababa;
+    line-height: 28px;
+    min-height: 166px;
+  }
+  .about3-row1 {
+    background: url('../img/about-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 136px;
+  }
+  .about3-row2 {
+    background: url('../img/about-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 136px;
+  }
+  .about3-row3 {
+    background: url('../img/about-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 136px;
+  }
+  .about4 {
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 46px;
+    border-top : 1px;
+    border-top-style: solid;
+    border-top-color: #383838;
+  }
+  .about4-cell {
+    width: 480px;
+  }
+}
+
+/*** About us ms ***/
+@media (min-width: 768px) and (max-width: 991px) {
+  .about1 {
+    background: url('../img/about-globe.png');
+    background-repeat: no-repeat;
+    background-position-x: -50%;
+    background-position-y: 50%;
+    background-size: 596px;
+    height: 596px;
+    padding-left: 45%;
+    padding-top: 150px;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .about-head {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 26px;
+    color: #ffffff;
+  }
+  .text-green {
+    font-size: 16px;
+    color: #129936;
+  }
+  .about-company-name {
+    font-size: 24px;
+    font-weight: medium;
+    color: #1cad43;
+  }
+  .about2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .about3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 178px;
+    font-size: 16px;
+    color: #bababa;
+    line-height: 28px;
+    min-height: 166px;
+  }
+  .about3-row1 {
+    background: url('../img/about-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 50%;
+    background-size: 136px;
+  }
+  .about3-row2 {
+    background: url('../img/about-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 50%;
+    background-size: 136px;
+  }
+  .about3-row3 {
+    background: url('../img/about-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 50%;
+    background-size: 136px;
+  }
+  .about4 {
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 40px;
+    border-top : 1px;
+    border-top-style: solid;
+    border-top-color: #383838;
+  }
+  .about4-cell {
+    width: 100%;
+  }
+}
+
+/*** About us xs ***/
+@media (max-width: 767px) {
+  .about1 {
+    background: url('../img/about-globe.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: 352px;
+    height: auto;
+    padding-left: auto;
+    padding-top: 352px;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    width: 100%;
+  }
+  .about-head {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 26px;
+    color: #ffffff;
+  }
+  .text-green {
+    font-size: 16px;
+    color: #129936;
+  }
+  .about-company-name {
+    font-size: 16px;
+    font-weight: medium;
+    color: #1cad43;
+  }
+  .about2 {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .about3 {
+    padding-top: 158px;
+    padding-bottom: 32px;
+    padding-left: auto;
+    font-size: 14px;
+    color: #bababa;
+    line-height: 24px;
+    min-height: 166px;
+    text-align: center;
+  }
+  .about3-row1 {
+    background: url('../img/about-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    #background-position-y: 50%;
+    background-size: 136px;
+  }
+  .about3-row2 {
+    background: url('../img/about-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    #background-position-y: 50%;
+    background-size: 136px;
+  }
+  .about3-row3 {
+    background: url('../img/about-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 136px;
+  }
+  .about4 {
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 30px;
+    border-top : 1px;
+    border-top-style: solid;
+    border-top-color: #383838;
+  }
+  .about4-cell {
+    width: 100%;
+  }
+}
