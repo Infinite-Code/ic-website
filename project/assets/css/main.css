@@ -383,14 +383,11 @@ ul.nav.navbar-nav a:hover {
 	}
 }
 
-.text-green {
-  color:#35a43c;
+/*** Hire Us *************************************/
+.fa-envelope-o {
+    color: #129936;
 }
 
-/*** Hire Us *************************************/
-    .text-green .strong{
-        font-size:44px;
-    }
 .hireus-container{
     padding-left:0px;
     padding-right:0px;
@@ -435,9 +432,6 @@ ul.nav.navbar-nav a:hover {
         line-height:24px;
         color:#fff;
     }
-    .text-green strong{
-        font-size:14px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991px)  {
@@ -462,9 +456,6 @@ ul.nav.navbar-nav a:hover {
         line-height:32px;
         color:#fff;
     }
-    .text-green strong{
-        font-size:18px;
-    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .hireus-project-container{
@@ -484,9 +475,6 @@ ul.nav.navbar-nav a:hover {
         line-height:28px;
         color:#fff;
     }
-    .text-green strong{
-        font-size:18px;
-    }
 }
 @media (min-width: 1200px) {
     .hireus-project-container{
@@ -505,9 +493,6 @@ ul.nav.navbar-nav a:hover {
         font-size:24px;
         line-height:42px;
         color:#fff;
-    }
-    .text-green strong{
-        font-size:24px;
     }
 }
 
