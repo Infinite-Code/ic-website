@@ -353,7 +353,7 @@ ul.nav.navbar-nav a:hover {
 	}
 	#home2-icon2 .item {
 		width: 132px;
-		margin: 1opx 22px;
+		margin: 10px 22px;
 	}
 	#home2-icon2 .item .img-container {
 		height: 132px;
@@ -387,16 +387,131 @@ ul.nav.navbar-nav a:hover {
   color:#35a43c;
 }
 
-/*** Hire us***/
-text-green strong{
- font-size:20px;
+/*** Hire Us *************************************/
+    .text-green .strong{
+        font-size:44px;
+    }
+.hireus-container{
+    padding-left:0px;
+    padding-right:0px;
 }
 
 .text-img-box{
-   padding-top:10px;
-   padding-bottom:10px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
+.box-padding-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hire-us-stripe {
+	background:url('../img/stripe-pattern.png') repeat;
+	border-top:1px solid #383838;
+    border-bottom:1px solid #383838;
+    margin-left:-15px;
+    margin-right:-15px;
+}
+@media (max-width: 767px){
+    .hireus-container{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .hireus-project-container{
+        padding-top: 24px;
+        padding-bottom: 30px;
+    }
+    .process-image{
+        width: 128px;
+        height: 128px;
+    }
+    .project-image{
+        width: 60px;
+        height: 60px;
+    }
+    .text-head{
+        font-size:16px;
+        line-height:24px;
+        color:#fff;
+    }
+    .text-green strong{
+        font-size:14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+    .hireus-container{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .hireus-project-container{
+        padding-top: 24px;
+        padding-bottom: 35px;
+    }
+    .process-image{
+        width: 128px;
+        height: 128px;
+    }
+    .project-image{
+        width: 82px;
+        height: 82px;
+    }
+    .text-head{
+        font-size:18px;
+        line-height:32px;
+        color:#fff;
+    }
+    .text-green strong{
+        font-size:18px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hireus-project-container{
+        padding-top: 26px;
+        padding-bottom: 45px;
+    }
+    .process-image{
+        width: 128px;
+        height: 128px;
+    }
+    .project-image{
+        width: 82px;
+        height: 82px;
+    }
+    .text-head{
+        font-size:22px;
+        line-height:28px;
+        color:#fff;
+    }
+    .text-green strong{
+        font-size:18px;
+    }
+}
+@media (min-width: 1200px) {
+    .hireus-project-container{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .process-image{
+        width: 173px;
+        height: 173px;
+    }
+    .project-image{
+        width: 82px;
+        height: 82px;
+    }
+    .text-head{
+        font-size:24px;
+        line-height:42px;
+        color:#fff;
+    }
+    .text-green strong{
+        font-size:24px;
+    }
+}
+
+/* ******* text alignment**************/
 .text-left-not-xs, .text-left-not-sm, .text-left-not-md, .text-left-not-lg {
     text-align: left;
 }
