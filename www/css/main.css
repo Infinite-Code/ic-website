@@ -172,7 +172,6 @@ ul.nav.navbar-nav a:hover {
 #home5 {
 	text-align:left;
 }
-#home5-
 .home5-head {
 	font-size:16px;
 	color:#129936;
@@ -586,6 +585,15 @@ ul.nav.navbar-nav a:hover {
 
 /*** About us lg ***/
 @media (min-width: 1200px) {
+  .intro-text {
+    font-size: 20px;
+    line-height: 42px;
+  }
+  .company-name {
+    font-size: 32px;
+    font-weight: medium;
+    color: #1cad43;
+  }
   .about1 {
     background: url('../img/about-globe.png');
     background-repeat: no-repeat;
@@ -595,8 +603,6 @@ ul.nav.navbar-nav a:hover {
     height: 596px;
     padding-left: 50%;
     padding-top: 105px;
-    font-size: 20px;
-    line-height: 42px;
     text-align: left;
   }
   .about-head {
@@ -608,11 +614,6 @@ ul.nav.navbar-nav a:hover {
   .text-green {
     font-size: 19px;
     color: #129936;
-  }
-  .about-company-name {
-    font-size: 32px;
-    font-weight: medium;
-    color: #1cad43;
   }
   .about2 {
     font-size: 24px;
@@ -663,6 +664,15 @@ ul.nav.navbar-nav a:hover {
 
 /*** About us md ***/
 @media (min-width: 992px) and (max-width: 1199px) {
+  .intro-text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .company-name {
+    font-size: 26px;
+    font-weight: medium;
+    color: #1cad43;
+  }
   .about1 {
     background: url('../img/about-globe.png');
     background-repeat: no-repeat;
@@ -672,8 +682,6 @@ ul.nav.navbar-nav a:hover {
     height: 596px;
     padding-left: 50%;
     padding-top: 150px;
-    font-size: 16px;
-    line-height: 30px;
     text-align: left;
   }
   .about-head {
@@ -685,11 +693,6 @@ ul.nav.navbar-nav a:hover {
   .text-green {
     font-size: 16px;
     color: #129936;
-  }
-  .about-company-name {
-    font-size: 26px;
-    font-weight: medium;
-    color: #1cad43;
   }
   .about2 {
     font-size: 20px;
@@ -738,8 +741,17 @@ ul.nav.navbar-nav a:hover {
   }
 }
 
-/*** About us ms ***/
+/*** About us sm ***/
 @media (min-width: 768px) and (max-width: 991px) {
+  .intro-text {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .company-name {
+    font-size: 24px;
+    font-weight: medium;
+    color: #1cad43;
+  }
   .about1 {
     background: url('../img/about-globe.png');
     background-repeat: no-repeat;
@@ -749,8 +761,6 @@ ul.nav.navbar-nav a:hover {
     height: 596px;
     padding-left: 45%;
     padding-top: 150px;
-    font-size: 15px;
-    line-height: 28px;
     text-align: left;
   }
   .about-head {
@@ -762,11 +772,6 @@ ul.nav.navbar-nav a:hover {
   .text-green {
     font-size: 16px;
     color: #129936;
-  }
-  .about-company-name {
-    font-size: 24px;
-    font-weight: medium;
-    color: #1cad43;
   }
   .about2 {
     font-size: 20px;
@@ -820,6 +825,15 @@ ul.nav.navbar-nav a:hover {
 
 /*** About us xs ***/
 @media (max-width: 767px) {
+  .intro-text {
+    line-height: 26px;
+    text-align: center;
+  }
+  .company-name {
+    font-size: 16px;
+    font-weight: medium;
+    color: #1cad43;
+  }
   .about1 {
     background: url('../img/about-globe.png');
     background-repeat: no-repeat;
@@ -830,9 +844,8 @@ ul.nav.navbar-nav a:hover {
     padding-left: auto;
     padding-top: 352px;
     font-size: 14px;
-    line-height: 26px;
-    text-align: center;
     width: 100%;
+    text-align: center;
   }
   .about-head {
     font-size: 24px;
@@ -843,11 +856,6 @@ ul.nav.navbar-nav a:hover {
   .text-green {
     font-size: 16px;
     color: #129936;
-  }
-  .about-company-name {
-    font-size: 16px;
-    font-weight: medium;
-    color: #1cad43;
   }
   .about2 {
     font-size: 18px;
@@ -898,3 +906,1062 @@ ul.nav.navbar-nav a:hover {
     width: 100%;
   }
 }
+
+/*** Join us lg ***/
+@media (min-width: 1200px) {
+  .joinus {
+    width: 100%;
+  }
+  .joinus-row {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #383838;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .joinus-row-alt {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #000000;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .joinus-head1 {
+    background:url('../img/stripe-pattern.png') repeat;
+  }
+  .joinus-head1-alt {
+    background: url('../img/star-bg.jpg');
+  }
+  .joinus1 {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .joinus1-row {
+    margin-bottom: 35px;
+  }
+  .joinus1-cell1 {
+    background: url('../img/joinus-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 180px;
+    padding-top: 180px;
+  }
+  .joinus1-cell2 {
+    background: url('../img/joinus-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 180px;
+    padding-top: 180px;
+  }
+  .joinus1-cell3 {
+    background: url('../img/joinus-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 180px;
+    padding-top: 180px;
+  }
+  .joinus1-cell1-title {
+    background: url('../img/joinus-number-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 35px;
+    padding-left: 47px;
+    color: #129936;
+    font-size: 24px;
+    min-height: 35px;
+  }
+  .joinus1-cell2-title {
+    background: url('../img/joinus-number-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 35px;
+    padding-left: 47px;
+    color: #129936;
+    font-size: 24px;
+    min-height: 35px;
+  }
+  .joinus1-cell3-title {
+    background: url('../img/joinus-number-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 35px;
+    padding-left: 47px;
+    color: #129936;
+    font-size: 24px;
+    min-height: 35px;
+  }
+  .joinus2-row {
+    min-height: 65px;
+    padding-left: 97px;
+  }
+  .joinus2-row-alt {
+    min-height: 65px;
+    padding-left: 162px;
+  }
+  .joinus2-cell {
+    background: url('../img/joinus-peoplefirst-separator.png');
+    background-repeat: no-repeat;
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+  }
+  .joinus2-row1 {
+    background: url('../img/joinus-peoplefirst-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus2-row2 {
+    background: url('../img/joinus-peoplefirst-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 87px;
+  }
+  .joinus2-row3 {
+    background: url('../img/joinus-peoplefirst-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus2-row4 {
+    background: url('../img/joinus-peoplefirst-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 87px;
+  }
+  .joinus2-row5 {
+    background: url('../img/joinus-peoplefirst-5-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus3 {
+    text-align: center;
+  }
+  .joinus3-row1 {
+    background: url('../img/joinus-agile-lightbulb-1x.png');
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position-y: 50%;
+    min-height: 375px;
+    padding-top: 60px;
+    padding-left: 405px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .joinus3-row2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 35px;
+  }
+  .joinus3-cell {
+    color: #bababa;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 148px;
+  }
+  .joinus3-cell1 {
+    background: url('../img/joinus-agile-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell2 {
+    background: url('../img/joinus-agile-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell3 {
+    background: url('../img/joinus-agile-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell4 {
+    background: url('../img/joinus-agile-icon-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell5 {
+    background: url('../img/joinus-agile-icon-5-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus4 {
+    text-align: center;
+  }
+  .joinus4-row1 {
+    color: #129936;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .joinus4-row2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  .joinus4-row3 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .joinus4-cell {
+    text-align: center;
+    color: #129936;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 148px;
+  }
+  .joinus4-cell1 {
+    background: url('../img/joinus-opensource-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell2 {
+    background: url('../img/joinus-opensource-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell3 {
+    background: url('../img/joinus-opensource-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell4 {
+    background: url('../img/joinus-opensource-icon-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus-contactus {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 42px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .joinus-contactus-icon {
+    color: #129936;
+    font-size: 60px;
+  }
+  .joinus-email {
+    color: #129936;
+  }
+}
+
+/*** Join us md ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .joinus {
+    width: 100%;
+  }
+  .joinus-row {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #383838;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .joinus-row-alt {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #000000;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .joinus-head1 {
+    background:url('../img/stripe-pattern.png') repeat;
+  }
+  .joinus-head1-alt {
+    background: url('../img/star-bg.jpg');
+  }
+  .joinus1 {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .joinus1-row {
+    margin-bottom: 35px;
+  }
+  .joinus1-cell1 {
+    background: url('../img/joinus-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 180px;
+    padding-top: 180px;
+  }
+  .joinus1-cell2 {
+    background: url('../img/joinus-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 180px;
+    padding-top: 180px;
+  }
+  .joinus1-cell3 {
+    background: url('../img/joinus-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 180px;
+    padding-top: 180px;
+  }
+  .joinus1-cell1-title {
+    background: url('../img/joinus-number-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 35px;
+    padding-left: 47px;
+    color: #129936;
+    font-size: 24px;
+    min-height: 35px;
+  }
+  .joinus1-cell2-title {
+    background: url('../img/joinus-number-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 35px;
+    padding-left: 47px;
+    color: #129936;
+    font-size: 24px;
+    min-height: 35px;
+  }
+  .joinus1-cell3-title {
+    background: url('../img/joinus-number-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 35px;
+    padding-left: 47px;
+    color: #129936;
+    font-size: 24px;
+    min-height: 35px;
+  }
+  .joinus2-row {
+    min-height: 65px;
+    padding-left: 97px;
+  }
+  .joinus2-row-alt {
+    min-height: 65px;
+    padding-left: 162px;
+  }
+  .joinus2-cell {
+    background: url('../img/joinus-peoplefirst-separator.png');
+    background-repeat: no-repeat;
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+  }
+  .joinus2-row1 {
+    background: url('../img/joinus-peoplefirst-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus2-row2 {
+    background: url('../img/joinus-peoplefirst-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 87px;
+  }
+  .joinus2-row3 {
+    background: url('../img/joinus-peoplefirst-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus2-row4 {
+    background: url('../img/joinus-peoplefirst-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 87px;
+  }
+  .joinus2-row5 {
+    background: url('../img/joinus-peoplefirst-5-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus3 {
+    text-align: center;
+  }
+  .joinus3-row1 {
+    background: url('../img/joinus-agile-lightbulb-1x.png');
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position-y: 50%;
+    min-height: 375px;
+    padding-top: 60px;
+    padding-left: 405px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .joinus3-row2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 35px;
+  }
+  .joinus3-cell {
+    color: #bababa;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 148px;
+  }
+  .joinus3-cell1 {
+    background: url('../img/joinus-agile-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell2 {
+    background: url('../img/joinus-agile-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell3 {
+    background: url('../img/joinus-agile-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell4 {
+    background: url('../img/joinus-agile-icon-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell5 {
+    background: url('../img/joinus-agile-icon-5-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus4 {
+    text-align: center;
+  }
+  .joinus4-row1 {
+    color: #129936;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .joinus4-row2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  .joinus4-row3 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .joinus4-cell {
+    text-align: center;
+    color: #129936;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 148px;
+  }
+  .joinus4-cell1 {
+    background: url('../img/joinus-opensource-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell2 {
+    background: url('../img/joinus-opensource-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell3 {
+    background: url('../img/joinus-opensource-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell4 {
+    background: url('../img/joinus-opensource-icon-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus-contactus {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 42px;
+    padding-top: 42px;
+    padding-bottom: 45px;
+  }
+  .joinus-contactus-icon {
+    color: #129936;
+    font-size: 60px;
+  }
+  .joinus-email {
+    color: #129936;
+  }
+}
+
+/*** Join us sm ***/
+@media (min-width: 768px) and (max-width: 991px) {
+  .joinus {
+    width: 100%;
+  }
+  .joinus-row {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #383838;
+    padding-top: 24px;
+    padding-bottom: 35px;
+  }
+  .joinus-row-alt {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #000000;
+    padding-top: 24px;
+    padding-bottom: 35px;
+  }
+  .joinus-head1 {
+    background:url('../img/stripe-pattern.png') repeat;
+  }
+  .joinus-head1-alt {
+    background: url('../img/star-bg.jpg');
+  }
+  .joinus1 {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .joinus1-row {
+    margin-bottom: 35px;
+  }
+  .joinus1-cell1 {
+    background: url('../img/joinus-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 128px;
+    padding-top: 128px;
+  }
+  .joinus1-cell2 {
+    background: url('../img/joinus-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 128px;
+    padding-top: 128px;
+  }
+  .joinus1-cell3 {
+    background: url('../img/joinus-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 128px;
+    padding-top: 128px;
+  }
+  .joinus1-cell1-title {
+    background: url('../img/joinus-number-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 25px;
+    padding-left: 37px;
+    color: #129936;
+    font-size: 18px;
+    min-height: 25px;
+  }
+  .joinus1-cell2-title {
+    background: url('../img/joinus-number-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 25px;
+    padding-left: 37px;
+    color: #129936;
+    font-size: 18px;
+    min-height: 25px;
+  }
+  .joinus1-cell3-title {
+    background: url('../img/joinus-number-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 25px;
+    padding-left: 37px;
+    color: #129936;
+    font-size: 18px;
+    min-height: 25px;
+  }
+  .joinus2-row {
+    min-height: 65px;
+    padding-left: 102px;
+  }
+  .joinus2-row-alt {
+    min-height: 65px;
+    padding-left: 102px;
+  }
+  .joinus2-cell {
+    background: url('../img/joinus-peoplefirst-separator.png');
+    background-repeat: no-repeat;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 12px;
+  }
+  .joinus2-row1 {
+    background: url('../img/joinus-peoplefirst-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus2-row2 {
+    background: url('../img/joinus-peoplefirst-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus2-row3 {
+    background: url('../img/joinus-peoplefirst-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus2-row4 {
+    background: url('../img/joinus-peoplefirst-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus2-row5 {
+    background: url('../img/joinus-peoplefirst-5-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 50%;
+    background-position-x: 22px;
+  }
+  .joinus3 {
+    text-align: center;
+  }
+  .joinus3-row1 {
+    background: url('../img/joinus-agile-lightbulb-1x.png');
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position-y: 50%;
+    min-height: 375px;
+    padding-top: 60px;
+    padding-left: 405px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .joinus3-row2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 35px;
+  }
+  .joinus3-cell {
+    color: #bababa;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 148px;
+  }
+  .joinus3-cell1 {
+    background: url('../img/joinus-agile-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell2 {
+    background: url('../img/joinus-agile-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell3 {
+    background: url('../img/joinus-agile-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell4 {
+    background: url('../img/joinus-agile-icon-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell5 {
+    background: url('../img/joinus-agile-icon-5-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus4 {
+    text-align: center;
+  }
+  .joinus4-row1 {
+    color: #129936;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .joinus4-row2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  .joinus4-row3 {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .joinus4-cell {
+    text-align: center;
+    color: #129936;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 148px;
+  }
+  .joinus4-cell1 {
+    background: url('../img/joinus-opensource-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell2 {
+    background: url('../img/joinus-opensource-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell3 {
+    background: url('../img/joinus-opensource-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus4-cell4 {
+    background: url('../img/joinus-opensource-icon-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 35px;
+  }
+  .joinus-contactus {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 24px;
+    padding-bottom: 45px;
+  }
+  .joinus-contactus-icon {
+    color: #129936;
+    font-size: 60px;
+  }
+  .joinus-email {
+    color: #129936;
+  }
+}
+
+/*** Join us xs ***/
+@media (max-width: 767px) {
+  .joinus {
+    width: 100%;
+  }
+  .joinus-row {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #383838;
+    padding-top: 24px;
+    padding-bottom: 30px;
+  }
+  .joinus-row-alt {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #000000;
+    padding-top: 24px;
+    padding-bottom: 30px;
+  }
+  .joinus-head1 {
+    background:url('../img/stripe-pattern.png') repeat;
+  }
+  .joinus-head1-alt {
+    background: url('../img/star-bg.jpg');
+  }
+  .joinus1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .joinus1-row {
+    margin-bottom: 30px;
+  }
+  .joinus1-cell1 {
+    background: url('../img/joinus-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 128px;
+    padding-top: 128px;
+  }
+  .joinus1-cell2 {
+    background: url('../img/joinus-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 128px;
+    padding-top: 128px;
+    padding-bottom: 30px;
+  }
+  .joinus1-cell3 {
+    background: url('../img/joinus-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 128px;
+    padding-top: 128px;
+    padding-bottom: 30px;
+  }
+  .joinus1-cell1-title {
+    background: url('../img/joinus-number-1-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 25px;
+    padding-left: 37px;
+    color: #129936;
+    font-size: 18px;
+    min-height: 25px;
+  }
+  .joinus1-cell2-title {
+    background: url('../img/joinus-number-2-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 25px;
+    padding-left: 37px;
+    color: #129936;
+    font-size: 18px;
+    min-height: 25px;
+  }
+  .joinus1-cell3-title {
+    background: url('../img/joinus-number-3-1x.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 25px;
+    padding-left: 37px;
+    color: #129936;
+    font-size: 18px;
+    min-height: 25px;
+  }
+  .joinus2-row {
+    min-height: 65px;
+    #padding-left: 102px;
+  }
+  .joinus2-row-alt {
+    min-height: 65px;
+    #padding-left: 102px;
+  }
+  .joinus2-cell {
+    background: url('../img/joinus-peoplefirst-separator-2.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 87px;
+    #padding-left: 7px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .join2-cell-hide {
+    background: none;
+  }
+  .joinus2-row1 {
+    background: url('../img/joinus-peoplefirst-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 15px;
+    background-position-x: 50%;
+  }
+  .joinus2-row2 {
+    background: url('../img/joinus-peoplefirst-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 15px;
+    background-position-x: 50%;
+  }
+  .joinus2-row3 {
+    background: url('../img/joinus-peoplefirst-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 15px;
+    background-position-x: 50%;
+  }
+  .joinus2-row4 {
+    background: url('../img/joinus-peoplefirst-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 15px;
+    background-position-x: 50%;
+  }
+  .joinus2-row5 {
+    background: url('../img/joinus-peoplefirst-5-1x.png');
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-y: 15px;
+    background-position-x: 50%;
+  }
+  .joinus3 {
+    text-align: center;
+  }
+  .joinus3-row1 {
+    background: url('../img/joinus-agile-lightbulb-1x.png');
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position-x: 50%;
+    min-height: 375px;
+    padding-top: 405px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .joinus3-row2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .joinus3-cell {
+    color: #bababa;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 148px;
+  }
+  .joinus3-cell1 {
+    background: url('../img/joinus-agile-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell2 {
+    background: url('../img/joinus-agile-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell3 {
+    background: url('../img/joinus-agile-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell4 {
+    background: url('../img/joinus-agile-icon-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus3-cell5 {
+    background: url('../img/joinus-agile-icon-5-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+  }
+  .joinus4 {
+    text-align: center;
+  }
+  .joinus4-row1 {
+    color: #129936;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .joinus4-row2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .joinus4-row3 {
+    display: none;
+  }
+  .joinus4-cell {
+    text-align: center;
+    color: #129936;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 148px;
+  }
+  .joinus4-cell1 {
+    background: url('../img/joinus-opensource-icon-1-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 30px;
+  }
+  .joinus4-cell2 {
+    background: url('../img/joinus-opensource-icon-2-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 30px;
+  }
+  .joinus4-cell3 {
+    background: url('../img/joinus-opensource-icon-3-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 30px;
+  }
+  .joinus4-cell4 {
+    background: url('../img/joinus-opensource-icon-4-1x.png');
+    background-repeat: no-repeat;
+    background-size: 136px;
+    background-position-x: 50%;
+    margin-bottom: 30px;
+  }
+  .joinus-contactus {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+    padding-top: 24px;
+    padding-bottom: 45px;
+  }
+  .joinus-contactus-icon {
+    color: #129936;
+    font-size: 60px;
+  }
+  .joinus-email {
+    color: #129936;
+    display: block;
+  }
+}
+>>>>>>> Stashed changes
