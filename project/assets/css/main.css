@@ -408,6 +408,33 @@ ul.nav.navbar-nav a:hover {
 	}
 }
 
+/*** Home Section 3 ***/
+@meida (max-width:991px) {
+  .home-testimonial {
+    text-align: left;
+    background-color: #ffffff;
+    padding: 12px;
+    padding-bottom: 25px;
+    box-shadow: 10px 10px 5px #888888;
+  }
+  .home-testimonial .title {
+    color: #129936;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .home-testimonial .company {
+    display: block;
+    font-style: italic;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  .home-testimonial .content {
+    color: #1c1c1c;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
 /*** Home Section 4 ***/
 @media (max-width:767px) {
 	#home4-head2 {
