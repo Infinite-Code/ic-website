@@ -106,6 +106,8 @@ ul.nav.navbar-nav a:hover {
 	text-align:center;
 	background:url('../img/home-light-dots-1.png');
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
 }
 #home1-icon {
 	max-width:25%;	
