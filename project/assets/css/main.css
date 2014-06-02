@@ -105,7 +105,7 @@ ul.nav.navbar-nav a:hover {
 #home1 {
 	text-align:center;
 	background:url('../img/home-light-dots-1.png');
-	background-size:cover;
+	background-size: contain;
 }
 #home1-icon {
 	max-width:25%;	
@@ -611,6 +611,13 @@ ul.nav.navbar-nav a:hover {
     padding-bottom: 36px;
     color: #ffffff;
   }
+  .about-head-alt {
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 36px;
+    color: #ffffff;
+    display: none;
+  }
   .text-green {
     font-size: 19px;
     color: #129936;
@@ -690,6 +697,13 @@ ul.nav.navbar-nav a:hover {
     padding-bottom: 30px;
     color: #ffffff;
   }
+  .about-head-alt {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: #ffffff;
+    display: none;
+  }
   .text-green {
     font-size: 16px;
     color: #129936;
@@ -768,6 +782,13 @@ ul.nav.navbar-nav a:hover {
     font-weight: bold;
     padding-bottom: 26px;
     color: #ffffff;
+  }
+  .about-head-alt {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 26px;
+    color: #ffffff;
+    display: none;
   }
   .text-green {
     font-size: 16px;
@@ -852,6 +873,16 @@ ul.nav.navbar-nav a:hover {
     font-weight: bold;
     padding-bottom: 26px;
     color: #ffffff;
+    display: none;
+  }
+  .about-head-alt {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 26px;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding-bottom: 0px;
   }
   .text-green {
     font-size: 16px;
