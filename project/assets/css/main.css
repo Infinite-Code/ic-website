@@ -80,6 +80,12 @@ ul.nav.navbar-nav a:hover {
 	background-size:20px;
 	background-position:center;
 }
+.head-dots-white {
+	text-align:center;
+	background:url('../img/whiteline.png') repeat-x;
+	background-size:20px;
+	background-position:center;
+}
 .bg-stripe {
 	background:url('../img/stripe-pattern.png') repeat;
 }
@@ -137,10 +143,47 @@ ul.nav.navbar-nav a:hover {
 	text-align:center;
 	/*background:url('../img/stripe-pattern.png') repeat;*/
 	background:none;
-	background-colour : #0D0D0D;
+	//background-color: #0D0D0D;
+	background-color: #bababa;
+	color: #000000;
+}
+#home3-carousel .head {
+  color: #000000;
 }
 #home3-head {
-
+  background: #bababa;
+}
+.owl-item {
+  border-width: 10px;
+  border-color: transparent;
+  border-style: solid;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: #ffffff;
+}
+.home-testimonial {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 12px;
+  padding-bottom: 25px;
+  box-shadow: 10px 10px 5px #888888;
+}
+.home-testimonial .title {
+  color: #129936;
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+.home-testimonial .company {
+  display: block;
+  font-style: italic;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+.home-testimonial .content {
+  color: #1c1c1c;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 /*** Home Section 4 ***/
