@@ -1,17 +1,19 @@
-==================
-complexity-example
-==================
+=====
+Setup
+=====
 
-An example of a Complexity site. 
+Source code for our Infinite Code website.
 
-Clone this and use it with the Complexity static site generator: https://github.com/audreyr/complexity
+Install python packages::
 
-Try it out::
+    $ virtualenv ~/virtualenv/ic-website
+    $ source ~/virtualenv/ic-website/bin/activate
+    $ pip install -r requirements.txt
 
-    $ pip install complexity
-    $ git clone git@github.com:audreyr/complexity-example.git my_proj
-    $ cd my_proj
-    $ complexity project/ www/
+Generate the website::
+
+    $ cd ic-website
+    $ complexity project/
 
 Once you've done that, open a web browser to http://127.0.0.1:9090 to see the
-newly generated Complexity static site.
+newly generated static site.
