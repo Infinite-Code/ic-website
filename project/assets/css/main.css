@@ -141,11 +141,11 @@ ul.nav.navbar-nav a:hover {
 /** Home Section 3 ***/
 #home3-carousel {
 	text-align:center;
-	/*background:url('../img/stripe-pattern.png') repeat;*/
 	background:none;
-	//background-color: #0D0D0D;
 	background-color: #bababa;
 	color: #000000;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
 }
 #home3-carousel .head {
   color: #000000;
@@ -168,7 +168,7 @@ ul.nav.navbar-nav a:hover {
   padding-bottom: 25px;
   box-shadow: 10px 10px 5px #888888;
 }
-.home-testimonial .title {
+.home-testimonial .name {
   color: #129936;
   display: block;
   font-weight: bold;
@@ -417,7 +417,7 @@ ul.nav.navbar-nav a:hover {
     padding-bottom: 25px;
     box-shadow: 10px 10px 5px #888888;
   }
-  .home-testimonial .title {
+  .home-testimonial .name {
     color: #129936;
     display: block;
     font-weight: bold;
