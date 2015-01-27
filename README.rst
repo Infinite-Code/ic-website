@@ -17,3 +17,7 @@ Generate the website::
 
 Once you've done that, open a web browser to http://127.0.0.1:9090 to see the
 newly generated static site.
+
+Generate the website without running the server::
+
+    $ complexity --noserver project/
