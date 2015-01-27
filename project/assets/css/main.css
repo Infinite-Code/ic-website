@@ -239,6 +239,9 @@ strong.job-section,
     color: #ffffff;
     font-size: 16px;
 }
+.jobs-row1 {
+    text-align: center;
+}
 .jobs-last-updated {
     font-size: 12px;
 }
