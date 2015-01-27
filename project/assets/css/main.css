@@ -233,6 +233,23 @@ ul.nav.navbar-nav a:hover {
 	color:#bababa;
 }
 
+/* job pages */
+strong.job-section,
+.job-apply {
+    color: #ffffff;
+    font-size: 16px;
+}
+.jobs-last-updated {
+    font-size: 12px;
+}
+
+.joinus-job-openings {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    border-bottom:1px solid #383838;
+}
+
 /*--------------------------------------------------------------------------*/
 /*** Global ***/
 @media only screen and (max-width: 319px) {
