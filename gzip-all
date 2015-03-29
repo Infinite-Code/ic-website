@@ -1,0 +1,12 @@
+#!/bin/bash
+
+rm -Rf www_gzip/
+rsync -a --progress www/ www_gzip/
+gzip -9fr www_gzip/
+FILES=`find www_gzip`
+for FILE in $FILES; do
+    NEW_FILE=${FILE/.gz/}
+    if [ "${FILE}" != "${NEW_FILE}" ]; then
+        mv ${FILE} ${NEW_FILE}
+    fi;
+done;
