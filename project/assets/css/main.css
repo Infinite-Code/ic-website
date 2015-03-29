@@ -2,7 +2,8 @@ body {
 	font-family: 'Roboto';
 	font-size:14px;
 	color:#bababa;
-	background:url('../img/star-bg.jpg');
+	background-color: #000000;
+	background-image: url('../img/star-bg.jpg');
 }
 
 /*** Navigation Bar***/
