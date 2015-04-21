@@ -21,3 +21,9 @@ newly generated static site.
 Generate the website without running the server::
 
     $ complexity --noserver project/
+
+
+Complexity
+----------
+Check here for more details on complexity:
+ * https://github.com/audreyr/complexity
