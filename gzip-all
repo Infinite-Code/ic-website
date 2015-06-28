@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# we gzip up all files so that they are smaller
 rm -Rf www_gzip/
 rsync -a --progress www/ www_gzip/
 gzip -9fr www_gzip/
