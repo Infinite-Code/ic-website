@@ -1,4 +1,7 @@
 date
+
+set -x
+
 BASE_DIR=`dirname ${0}`
 
 echo Preparing files for sync..
@@ -8,8 +11,7 @@ ${BASE_DIR}/gzip-all
 echo Syncing infinite-code.com...
 
 export AWS_CALLING_FORMAT=SUBDOMAIN
-export S3SYNC_MIME_TYPES_FILE=~/Scripts/s3sync/mime.types
-AWS_BIN_PATH=/Users/cheeming/virtualenv/aws-cli/bin
-${AWS_BIN_PATH}/aws s3 sync ${BASE_DIR}/www_gzip/ s3://infinite-code.com --delete --acl public-read --content-encoding gzip
+export S3SYNC_MIME_TYPES_FILE=${BASE_DIR}/mime.types
+aws s3 sync ${BASE_DIR}/www_gzip/ s3://infinite-code.com --delete --acl public-read --content-encoding gzip
 
 date
