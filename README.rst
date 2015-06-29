@@ -23,6 +23,19 @@ Generate the website without running the server::
     $ complexity --noserver project/
 
 
+Publishing
+----------
+
+Setup the following environment variables to configure AWS:
+ * AWS_ACCESS_KEY_ID
+ * AWS_SECRET_ACCESS_KEY
+ * refs http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
+
+Just run the following command:
+
+    $ ./publish-ic-website
+
+
 Complexity
 ----------
 Check here for more details on complexity:

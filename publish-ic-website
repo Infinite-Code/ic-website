@@ -6,6 +6,12 @@ BASE_DIR=`dirname ${0}`
 
 echo Preparing files for sync..
 
+(
+    cd ${BASE_DIR};
+    rm -Rf www;
+    complexity --noserver project/
+)
+
 ${BASE_DIR}/gzip-all
 
 echo Syncing infinite-code.com...
