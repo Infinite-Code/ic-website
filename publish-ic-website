@@ -10,9 +10,8 @@ echo Preparing files for sync..
     cd ${BASE_DIR};
     rm -Rf www;
     complexity --noserver project/
+    ./gzip-all
 )
-
-${BASE_DIR}/gzip-all
 
 echo Syncing infinite-code.com...
 
