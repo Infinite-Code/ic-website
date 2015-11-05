@@ -676,6 +676,15 @@ strong.job-section,
   width: 100%;
 }
 
+.donation-logo {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.donation-logo-fsf img {
+    background-color: #ffffff;
+    padding: 1em;
+}
+
 /*** About us lg ***/
 @media (min-width: 1200px) {
   .intro-text {
