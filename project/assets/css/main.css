@@ -496,6 +496,12 @@ strong.job-section,
     padding-left:0px;
     padding-right:0px;
 }
+.hireus-expertise {
+    font-size: 16px;
+}
+.hireus-expertise p {
+    color: #ffffff;
+}
 
 .text-img-box{
     padding-top:10px;
@@ -511,6 +517,7 @@ strong.job-section,
 	background:url('../img/stripe-pattern.png') repeat;
 	border-top:1px solid #383838;
     border-bottom:1px solid #383838;
+    margin-top: 1.5em;
     margin-left:-15px;
     margin-right:-15px;
 }
