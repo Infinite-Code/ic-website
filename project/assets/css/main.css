@@ -119,6 +119,7 @@ ul.nav.navbar-nav a:hover {
 #home1-icon {
 	max-width:25%;	
 	margin-top:1%;
+	margin-bottom:1em;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -305,6 +306,13 @@ strong.job-section,
 	}
 }
 /*** Home Section 1 ***/
+@media only screen {
+    #home1-head {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
 @media only screen and (max-width: 319px) {
 	#home1-head {
 		text-align:center;
