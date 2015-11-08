@@ -6,6 +6,10 @@ body {
 	background-image: url('../img/star-bg.jpg');
 }
 
+ul, ol {
+    padding-left: 1.5em;
+}
+
 /*** Navigation Bar***/
 #navbar {
 	background:#20201e;
@@ -683,10 +687,17 @@ strong.job-section,
 .about {
   width: 100%;
 }
+  
+.about3-donation {
+    padding-top: 0px !important;
+}
 
 .donation-logo {
     text-align: center;
     margin-bottom: 1em;
+}
+.donation-logo img {
+    max-width: 280px;
 }
 .donation-logo-fsf img {
     background-color: #ffffff;
