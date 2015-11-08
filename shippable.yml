@@ -6,9 +6,6 @@ python:
 install:
   - pip install -r requirements.txt
 
-script:
-  - echo hello world
-
 notifications:
   email:
    - cheeming@infinite-code.com
