@@ -13,6 +13,7 @@ Install python packages::
 Generate the website::
 
     $ cd ic-website
+    $ source ~/virtualenv/ic-website/bin/activate
     $ complexity project/
 
 Once you've done that, open a web browser to http://127.0.0.1:9090 to see the
